@@ -41,7 +41,7 @@ public class MainHelper {
         StringBuffer hex = new StringBuffer();
         for (int i = 0; i < chars.length; i++)
         {
-            hex.append(Integer.toHexString((int) chars[i])).append(0x0d);
+            hex.append(Integer.toHexString((int) chars[i])).append(0x0a);
         }
         return hex.toString();
     }
